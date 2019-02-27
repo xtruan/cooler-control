@@ -42,5 +42,7 @@ void loop()
 
     // wait before looping again to 
     // avoid cycling too rapidly
-    delay(SECS_BETWEEN_LOOPS * 1000);
+    for (int i = 0; i < SECS_BETWEEN_LOOPS; i++) {
+      delay(1000);
+    }
 }
